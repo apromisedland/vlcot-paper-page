@@ -23,10 +23,10 @@
   "siteUrl": "https://apromisedland.github.io/vlcot-paper-page/",
   "repositoryUrl": "https://github.com/apromisedland/vlcot-paper-page",
   "pdf": "assets/paper/vlcot-paper.pdf",
-  "pdfPages": 14,
-  "pdfDate": "2026-09-22",
+  "pdfPages": 13,
+  "pdfDate": "2026-09-27",
   "sourceDate": "2026-09-27",
-  "versionNote": "The downloadable PDF is the author-supplied September 22, 2026 manuscript. It retains an anonymous ICLR 2027 review-format header; the ICML 2026 acceptance and author information on this page were supplied separately by the authors. The page includes figures from the updated manuscript materials. All 162 numerical table entries agree with the PDF. This file is not presented as the ICML proceedings version.",
+  "versionNote": "The downloadable PDF is the author-supplied ICML 2026 accepted manuscript with named authors, dated September 27, 2026. It contains 13 pages, including references and appendices. The file is preserved unchanged. All 162 numerical table entries agree with this version; source links use its table numbers and PDF pages.",
   "availability": {
     "manuscriptSource": "Not included in this release.",
     "researchCode": "Not included in the supplied materials.",

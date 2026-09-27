@@ -208,5 +208,6 @@
       }
     }
   },
-  "source_description": "Author-supplied English LaTeX; table identifiers and the SHA-256 hash provide the source mapping. Manuscript source is not part of this release."
+  "verified_source_sha256": "c8f592ff7158534ebe0997d992b1eae2610affe887b53ead8d26b55f33f84037",
+  "source_description": "source_sha256 identifies the original figure-generation manuscript. verified_source_sha256 identifies the current ICML 2026 source, whose LIBERO and repair table values were checked against this figure ledger. Manuscript source is not part of this release."
 }

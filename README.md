@@ -37,7 +37,7 @@ node scripts/verify.mjs
 node --check script.js
 ```
 
-The preparation script regenerates author markup, all complete HTML tables, headline numbers, BibTeX and the embedded interaction data. With the private `paper/vlcot_iclr_tex/vlcot_iclr_en.tex` available locally, it extracts the tables again and copies the original public PDF/figures. In a public checkout without that private directory, it rebuilds from the checked-in JSON. Do not edit generated HTML regions by hand. Keep the source hashes and version notes aligned with any future manuscript update.
+The preparation script regenerates author markup, all complete HTML tables, headline numbers, BibTeX and the embedded interaction data. With the private `paper/vlcot_icml2026/vlcot_icml2026.tex` available locally, it extracts the tables again and copies the original public PDF/figures. In a public checkout without that private directory, it rebuilds from the checked-in JSON. Do not edit generated HTML regions by hand. Keep the source hashes and version notes aligned with any future manuscript update.
 
 ## Interactions and accessibility
 
@@ -51,7 +51,7 @@ The preparation script regenerates author markup, all complete HTML tables, head
 
 ## Scientific and version boundaries
 
-The original September 22, 2026 PDF retains its anonymous ICLR 2027 review-format header. The website uses the author-confirmed ICML 2026 acceptance and author list. The PDF is preserved byte-for-byte and is not represented as an ICML proceedings version. Original figures come from the updated manuscript materials. All 162 table values agree with the supplied PDF and English/Chinese LaTeX at the time of release.
+The downloadable PDF is the author-supplied ICML 2026 accepted manuscript with named authors, dated September 27, 2026. Its 13 pages include references and appendices. The PDF is preserved byte-for-byte from `paper/vlcot_icml2026/vlcot_icml2026.pdf`; the preparation script uses this file for publication. All 162 table values agree with this PDF and its source, and the page uses the updated table numbers and PDF pages. Original figures come from the supplied manuscript materials.
 
 Published benchmark references are descriptive cross-paper comparisons. Controlled ablations are separate. The two RoboTwin task sets are not interchangeable. Per-level recovery columns must not be averaged to reconstruct the overall recovery statistic. N/A is not zero. Recovery-data and initial-frame augmentations are independent conditions.
 

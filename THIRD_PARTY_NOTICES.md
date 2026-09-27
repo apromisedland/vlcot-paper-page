@@ -2,7 +2,7 @@
 
 ## Paper and supplied figures
 
-The VLCoT manuscript, original method figure, experimental figures and reported numerical material are author-supplied research materials. Their authors retain the applicable rights. Publication of this project page does not relicense these materials. The manuscript is preserved unchanged, including its original review-format header; the page separately discloses its version and author-confirmed acceptance.
+The VLCoT manuscript, original method figure, experimental figures and reported numerical material are author-supplied research materials. Their authors retain the applicable rights. Publication of this project page does not relicense these materials. The author-supplied ICML 2026 accepted manuscript is preserved unchanged, including its author information and rights notice.
 
 The reported comparison tables cite other research papers. Source identifiers, table labels and PDF pages are recorded in `assets/data/results.json`. Reproducing a reported result here does not imply that its original implementation or data are distributed by this repository.
 

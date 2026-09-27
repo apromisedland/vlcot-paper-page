@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "updated": "2026-09-27",
   "source": {
-    "manuscript": "Author-supplied English LaTeX, September 27, 2026",
-    "sha256": "384f0e19bbbc2f960a7fa319a4cc6bf808fd37870f27ba9359d5eed455d152e8",
-    "pdfSha256": "cddea8a7acde06dde0eaec561d0e34e47c52995ea2a33323580057c8645bd51e",
-    "pdfDate": "2026-09-22",
-    "pdfPages": 14,
+    "manuscript": "Author-supplied ICML 2026 LaTeX, September 27, 2026",
+    "sha256": "c8f592ff7158534ebe0997d992b1eae2610affe887b53ead8d26b55f33f84037",
+    "pdfSha256": "ebb9e1d8bfe51449b65ebd5405101ed9f96514b328e6f50325d1597191a47d94",
+    "pdfDate": "2026-09-27",
+    "pdfPages": 13,
     "tableRows": 45,
     "numericCells": 162,
-    "verification": "All numeric cells checked against the supplied PDF on September 27, 2026; Chinese-source numeric cells also agree."
+    "verification": "All 162 numeric table entries checked against the author-supplied ICML 2026 PDF and source on September 27, 2026; original English/Chinese source values also agree."
   },
   "reporting": {
     "seeds": "Three independent seeds for configurations requiring retraining; seed identifiers and per-seed values are not supplied.",
@@ -240,8 +240,8 @@
     "robotwin50": {
       "id": "robotwin50",
       "label": "tab:robotwin_50",
-      "number": "2a",
-      "page": 8,
+      "number": "2",
+      "page": 7,
       "title": "RoboTwin 2.0 · 50 tasks",
       "context": "Per-task success, averaged over the 50-task benchmark. The reported protocol uses 50 clean demonstrations per task and 100 tests per clean/randomized condition. Published baselines retain their original settings.",
       "columns": [
@@ -318,8 +318,8 @@
     "robotwin10": {
       "id": "robotwin10",
       "label": "tab:robotwin_10",
-      "number": "2b",
-      "page": 8,
+      "number": "3",
+      "page": 7,
       "title": "RoboTwin 2.0 · 10-task subset",
       "context": "The ten-task subset follows the Fast-ThinkAct reference protocol. Its task coverage differs from the 50-task benchmark; these averages must not be combined or directly ranked against that benchmark.",
       "columns": [
@@ -405,8 +405,8 @@
     "recover": {
       "id": "recover",
       "label": "tab:recover",
-      "number": "3",
-      "page": 8,
+      "number": "4",
+      "page": 7,
       "title": "LIBERO-RECOVER · recovery levels",
       "context": "Each level equally weights Spatial, Object, Goal and LIBERO-100. L1: action retry; L2: action adaptation; L3: object-state recovery; L4: environment-state recovery. These four columns do not average to the overall recovery statistic used in the controlled experiments.",
       "columns": [
@@ -512,7 +512,7 @@
     "components": {
       "id": "components",
       "label": "tab:component_ablation",
-      "number": "4",
+      "number": "5",
       "page": 8,
       "title": "Controlled component ablations",
       "context": "Measured means from this work. Controlled implementations use matched initialization, splits, training trajectories, observation access and execution intervals. Recovery first pools instances within each suite, then equally averages the four suites. N/A denotes the absence of a latent-stage verification interface.",
@@ -596,8 +596,8 @@
     "repair": {
       "id": "repair",
       "label": "tab:repair_strategies",
-      "number": "5",
-      "page": 9,
+      "number": "6",
+      "page": 8,
       "title": "Measured repair strategies",
       "context": "Same recovery instances, step limits and task-level budget. Mean complete-episode inference time includes all model calls and both successful and failed episodes. Shared visual encoding is counted once. p95 is observation-to-executable-action latency. Regenerated vectors count deviation-triggered repairs only, excluding ordinary rolling extensions.",
       "columns": [
@@ -669,8 +669,8 @@
     "augmentation": {
       "id": "augmentation",
       "label": "tab:recover_ablation",
-      "number": "6",
-      "page": 9,
+      "number": "7",
+      "page": 8,
       "title": "Recovery data and observation history",
       "context": "Each augmentation is independently compared with the original configuration. Recovery instances are pooled within each suite before equally averaging the four suites. Recovery-data and initial-frame gains cannot be added to predict a joint result.",
       "columns": [
