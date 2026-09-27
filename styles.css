@@ -3,9 +3,9 @@
   --muted: #5c6d79;
   --blue: #3d617d;
   --blue-dark: #2c4d67;
-  --sage: #4e796b;
+  --sage: #426e60;
   --sage-wash: #edf5f0;
-  --coral: #ac584b;
+  --coral: #9c4e42;
   --coral-wash: #f8eeea;
   --amber: #866a31;
   --amber-wash: #f8f3e6;
@@ -287,7 +287,7 @@ tbody th { font-weight: 450; }
 .bar-row { display: grid; grid-template-columns: 125px minmax(0, 1fr) 41px; gap: 12px; align-items: center; min-height: 33px; }
 .bar-row + .bar-row { margin-top: 4px; }
 .bar-name { font-size: 11px; line-height: 1.35; text-align: right; color: var(--muted); }
-.source-mark { display: inline; color: #6f8291; font-size: 9px; margin-left: 4px; }
+.source-mark { display: inline; color: var(--muted); font-size: 9px; margin-left: 4px; }
 .bar-track { height: 13px; background: #f0f3f6; border-radius: 2px; position: relative; overflow: hidden; }
 .bar-fill { display: block; height: 100%; width: var(--bar-width); background: #afc0cd; border-radius: 2px; transform-origin: left; transition: width .45s; }
 .bar-value { font-size: 11px; font-variant-numeric: tabular-nums; line-height: 1.4; font-weight: 500; }
