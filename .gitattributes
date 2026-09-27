@@ -1,0 +1,3 @@
+* text=auto eol=lf
+*.pdf -text
+assets/figures/*.svg -text -whitespace

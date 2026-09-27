@@ -1,0 +1,7 @@
+/paper/
+.qa/
+node_modules/
+.venv/
+*.log
+.DS_Store
+Thumbs.db

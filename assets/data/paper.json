@@ -1,0 +1,37 @@
+{
+  "acronym": "VLCoT",
+  "title": "Stage-Verifiable Latent Chain-of-Thought with Local Repair for Long-Horizon Robotic Manipulation",
+  "claim": "Verify progress. Repair only what changed.",
+  "venue": "ICML 2026",
+  "status": "Accepted at ICML 2026",
+  "statusSource": "Confirmed by the authors for this project page on 2026-09-27.",
+  "year": 2026,
+  "authors": [
+    { "name": "Yirong Qiang", "affiliation": 1, "coAuthor": true },
+    { "name": "Jiahe Zhang", "affiliation": 2, "coAuthor": true },
+    { "name": "Ming Zhou", "affiliation": 3 },
+    { "name": "Yuxiu Pei", "affiliation": 1 },
+    { "name": "Lianlei Shan", "affiliation": 4, "corresponding": true }
+  ],
+  "affiliations": [
+    { "id": 1, "name": "University of Electronic Science and Technology of China", "abbreviation": "UESTC" },
+    { "id": 2, "name": "Fudan University", "abbreviation": "Fudan" },
+    { "id": 3, "name": "Shanghai Jiao Tong University", "abbreviation": "SJTU" },
+    { "id": 4, "name": "Tsinghua University", "abbreviation": "THU" }
+  ],
+  "authorNotes": "* Co-authors · † Corresponding author",
+  "siteUrl": "https://apromisedland.github.io/vlcot-paper-page/",
+  "repositoryUrl": "https://github.com/apromisedland/vlcot-paper-page",
+  "pdf": "assets/paper/vlcot-paper.pdf",
+  "pdfPages": 14,
+  "pdfDate": "2026-09-22",
+  "sourceDate": "2026-09-27",
+  "versionNote": "The downloadable PDF is the author-supplied September 22, 2026 manuscript. It retains an anonymous ICLR 2027 review-format header; the ICML 2026 acceptance and author information on this page were supplied separately by the authors. The page includes figures from the updated manuscript materials. All 162 numerical table entries agree with the PDF. This file is not presented as the ICML proceedings version.",
+  "availability": {
+    "manuscriptSource": "Not included in this release.",
+    "researchCode": "Not included in the supplied materials.",
+    "weights": "Not included in the supplied materials.",
+    "rawExperimentData": "Not included in the supplied materials; the released data contain reported table values and their provenance.",
+    "videos": "No robot rollout recordings were supplied. Interactive scenes are conceptual illustrations."
+  }
+}

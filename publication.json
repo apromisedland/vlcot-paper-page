@@ -1,0 +1,12 @@
+{
+  "files": [
+    ".gitignore", ".gitattributes", ".nojekyll", "index.html", "styles.css", "script.js",
+    "README.md", "THIRD_PARTY_NOTICES.md", "publication.json",
+    "scripts/prepare-assets.mjs", "scripts/serve.mjs", "scripts/verify.mjs",
+    "assets/favicon.svg", "assets/data/paper.json", "assets/data/results.json",
+    "assets/data/figure-provenance.json", "assets/paper/vlcot-paper.pdf", "assets/paper/vlcot.bib",
+    "assets/figures/vlcot_architecture.svg", "assets/figures/vlcot_architecture.pdf",
+    "assets/figures/vlcot_libero_heatmap.svg", "assets/figures/vlcot_libero_heatmap.pdf",
+    "assets/figures/vlcot_repair_pareto.svg", "assets/figures/vlcot_repair_pareto.pdf"
+  ]
+}

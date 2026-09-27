@@ -1,0 +1,212 @@
+{
+  "source_sha256": "384f0e19bbbc2f960a7fa319a4cc6bf808fd37870f27ba9359d5eed455d152e8",
+  "figures": {
+    "vlcot_libero_heatmap": {
+      "data": {
+        "rows": [
+          [
+            "Ours",
+            "This work",
+            "98.0",
+            "98.8",
+            "98.4",
+            "96.8",
+            "98.0"
+          ],
+          [
+            "LaRA-VLA",
+            "C",
+            "96.4",
+            "99.8",
+            "98.6",
+            "96.6",
+            "97.9"
+          ],
+          [
+            "OpenVLA-OFT",
+            "A",
+            "97.6",
+            "98.4",
+            "97.9",
+            "94.5",
+            "97.1"
+          ],
+          [
+            "$\\pi_0$",
+            "A",
+            "96.8",
+            "98.8",
+            "95.8",
+            "85.2",
+            "94.2"
+          ],
+          [
+            "Fast-ThinkAct",
+            "B",
+            "92.0",
+            "97.2",
+            "90.2",
+            "79.4",
+            "89.7"
+          ],
+          [
+            "MolmoAct",
+            "B",
+            "87.0",
+            "95.4",
+            "87.6",
+            "77.2",
+            "86.8"
+          ],
+          [
+            "$\\pi_0$-FAST",
+            "A",
+            "96.4",
+            "96.8",
+            "88.6",
+            "60.2",
+            "85.5"
+          ],
+          [
+            "ThinkAct",
+            "B",
+            "88.3",
+            "91.4",
+            "87.1",
+            "70.9",
+            "84.4"
+          ],
+          [
+            "CoT-VLA",
+            "B",
+            "87.5",
+            "91.6",
+            "87.6",
+            "69.0",
+            "83.9"
+          ],
+          [
+            "DiT Policy",
+            "A",
+            "84.2",
+            "96.3",
+            "85.4",
+            "63.8",
+            "82.4"
+          ],
+          [
+            "OpenVLA",
+            "A",
+            "84.7",
+            "88.4",
+            "79.2",
+            "53.7",
+            "76.5"
+          ],
+          [
+            "Octo",
+            "A",
+            "78.9",
+            "85.7",
+            "84.6",
+            "51.1",
+            "75.1"
+          ],
+          [
+            "Diffusion Policy",
+            "A",
+            "78.3",
+            "92.5",
+            "68.3",
+            "50.5",
+            "72.4"
+          ]
+        ],
+        "color_scale": [
+          0,
+          100
+        ],
+        "sort": "Average descending"
+      },
+      "checks": {
+        "text_items": 106,
+        "clipped_text": [],
+        "text_overlaps": [],
+        "svg_text_nodes": 106,
+        "pdf_points": [
+          396,
+          334.8
+        ],
+        "png_pixels": [
+          3300,
+          2790
+        ],
+        "embedded_pdf_fonts": true,
+        "raster_images_in_pdf": false
+      }
+    },
+    "vlcot_repair_pareto": {
+      "data": {
+        "measurements": {
+          "Repair disabled": [
+            22.8,
+            11.8,
+            180,
+            0
+          ],
+          "Full replanning": [
+            26.4,
+            18.6,
+            820,
+            62.4
+          ],
+          "Current-stage-only suffix reconstruction": [
+            24.6,
+            14.2,
+            360,
+            23.6
+          ],
+          "Dependency-aware local repair": [
+            26,
+            14.9,
+            430,
+            31.2
+          ]
+        },
+        "nondominated_strategies": [
+          "Repair disabled",
+          "Current-stage-only suffix reconstruction",
+          "Dependency-aware local repair",
+          "Full replanning"
+        ],
+        "time_reduction_percent": 19.892473118279575,
+        "recovery_difference_pp": 0.3999999999999986,
+        "x_limits": [
+          10.9,
+          20.1
+        ],
+        "y_limits": [
+          22,
+          27.6
+        ]
+      },
+      "checks": {
+        "text_items": 29,
+        "clipped_text": [],
+        "text_overlaps": [],
+        "svg_text_nodes": 34,
+        "pdf_points": [
+          396,
+          334.8
+        ],
+        "png_pixels": [
+          3300,
+          2790
+        ],
+        "embedded_pdf_fonts": true,
+        "raster_images_in_pdf": false
+      }
+    }
+  },
+  "source_description": "Author-supplied English LaTeX; table identifiers and the SHA-256 hash provide the source mapping. Manuscript source is not part of this release."
+}
