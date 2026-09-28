@@ -8,8 +8,11 @@ Yirong Qiang*, Jiahe Zhang*, Ming Zhou, Yuxiu Pei, and Lianlei Shan†.
 
 - Project page: https://apromisedland.github.io/vlcot-paper-page/
 - Website repository: https://github.com/apromisedland/vlcot-paper-page
+- Research implementation: https://github.com/apromisedland/VLCoT
 
 This repository contains the English paper project page, its original explanatory interactions, the author-supplied PDF and figures, and reported numerical summaries. It does **not** contain the research implementation, model weights, raw episode records, manuscript LaTeX or source ZIP.
+
+The separate research repository implements the paper's model, training, verification, repair and evaluation interfaces, with documented engineering choices for unspecified details. Its initial release has not run training, inference, simulation, tests or CI. The results displayed on this website remain the manuscript's reported measurements, not reproduced results of that implementation.
 
 ## Preview and maintain
 
